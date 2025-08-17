@@ -1,55 +1,49 @@
-Short GitHub & Git Syllabus
-===========================
+Short GitHub & Git Syllabus (VS Code)
+====================================
 
-Goal: Teach you the Git and GitHub skills used in professional projects using small example code and hands-on exercises.
+Goal: Teach you Git and GitHub the way teams use them at work. We will use VS Code's built-in Source Control and GitHub features. I will also show the matching PowerShell commands, but the VS Code UI is the primary way.
 
-Modules (brief):
+Modules (simple):
 
 1. Setup & Basics
-   - Install Git, configure user.name and user.email
-   - Create repositories (GitHub web vs local `git init`)
-   - Basic workflow: edit, git add, commit, push, pull
+   - Install Git and VS Code extensions (GitHub Pull Requests & Issues).
+   - Use VS Code Source Control to stage, commit, push, and pull.
 
 2. Branching & Merging
-   - Create branches, switch, merge, fast-forward vs no-ff
-   - Rebase basics and when not to rebase
-   - Resolve merge conflicts
+   - Make branches in VS Code, switch, merge, and handle conflicts using the editor.
 
 3. Remote Collaboration
-   - Forking, cloning, remotes, upstream
-   - Pull Requests (PRs) on GitHub web, reviews, approvals
-   - GitHub Desktop quick workflows
+   - Forking and cloning (VS Code + GitHub web), remotes, and upstream.
+   - Create Pull Requests from VS Code or GitHub web.
 
 4. Issues, Projects & Workflows
-   - Issues, labels, milestones
-   - Projects (boards) and linking PRs/issues
-   - Templates (ISSUE_TEMPLATE, PULL_REQUEST_TEMPLATE)
+   - Create and link Issues from VS Code and GitHub web. Use simple project boards.
 
-5. Protected Branches & Code Review
-   - Branch protection rules, required checks, status checks
-   - CODEOWNERS, reviews, and merging rules
+5. Code Review & Protection
+   - Use branch protection and review flow. Use CODEOWNERS when needed.
 
-6. CI/CD and Actions
-   - Basic GitHub Actions workflow for tests/builds
-   - Running checks on PRs and on push
+6. CI/CD (Basics)
+   - Add a simple GitHub Actions workflow. See checks on PRs.
 
-7. Releases & Versioning
-   - Tags, releases, changelogs, semantic versioning
+7. Releases & Tags
+   - Tagging and making releases on GitHub.
 
-8. Security & Secrets
-   - Secrets, Dependabot, vulnerability alerts
+8. Security Basics
+   - Use Secrets, Dependabot alerts, and good dependency hygiene.
 
-9. Advanced topics (overview)
-   - Monorepos, submodules, LFS
-   - Large repositories & performance tips
+9. Extras (overview)
+   - Submodules, LFS, monorepo notes.
 
-Examples and exercises included:
-- Hello world (Python)
-- Star pyramid (Python)
-- Basic OOP: Animal, Cat, Dog (Python)
+Examples in this repo:
+- `examples/hello.py` — Hello world
+- `examples/stars.py` — star pyramid
+- `examples/animals.py` — basic OOP
 
-How we'll proceed:
-- For each module: quick explanation, short code example or repo exercise, PowerShell git commands, GitHub web/Desktop steps, and a 1–2 question quiz.
+How we work:
+- For each lesson: short explanation, a small hands-on change, PowerShell git commands, and the exact VS Code steps to do the same.
+- Language: simple and clear (easy to follow).
+
+Next: Lesson 1 is done. Now we will move to Lesson 2: Branching & Merging.
 
 ---
 
