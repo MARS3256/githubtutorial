@@ -13,7 +13,7 @@ class Dog(Animal):
 
 class Cat(Animal):
     def speak(self):
-        return "Meow!"
+        return "Purr!"  # Updated from "Meow!" for collaboration example
 
 def demo():
     animals = [Dog('Rex'), Cat('Mittens')]
