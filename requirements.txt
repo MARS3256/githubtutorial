@@ -1,0 +1,8 @@
+# Development dependencies
+# No external dependencies required for this tutorial project
+# All examples use Python standard library only
+
+# Future dependencies might include:
+# pytest>=7.0.0
+# black>=22.0.0
+# flake8>=4.0.0
